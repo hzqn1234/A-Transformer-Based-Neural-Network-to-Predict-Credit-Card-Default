@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the corresponding paper."
+title: "A Transformer-Based Neural Network to Predict Credit Card Default"
+type: software
+authors:
+  - family-names: Hu
+    given-names: Zongqi
+    orcid: "https://orcid.org/0009-0004-7594-6877"
+  - family-names: Yeo
+    given-names: Chai Kiat
+    orcid: "https://orcid.org/0000-0002-7618-1472"
+url: "https://www.mdpi.com/2079-9292/15/12/2656"
+repository-code: "https://github.com/hzqn1234/A-Transformer-Based-Neural-Network-to-Predict-Credit-Card-Default"
+license: MIT
+preferred-citation:
+  type: article
+  authors:
+    - family-names: Hu
+      given-names: Zongqi
+      orcid: "https://orcid.org/0009-0004-7594-6877"
+    - family-names: Yeo
+      given-names: Chai Kiat
+      orcid: "https://orcid.org/0000-0002-7618-1472"
+  title: "A Transformer-Based Neural Network to Predict Credit Card Default"
+  journal: "Electronics"
+  year: 2026
+  volume: 15
+  issue: 12
+  start: 2656
+  doi: "10.3390/electronics15122656"
+  url: "https://www.mdpi.com/2079-9292/15/12/2656"

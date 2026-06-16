@@ -1,0 +1,13 @@
+dataset: amex
+metric: amex
+preset: amex_lgbm_manual
+model:
+  feature_set: manual
+  boosting: dart
+  feature_fraction: 0.05
+training:
+  folds: 5
+  seed: 42
+  rounds: 4500
+  early_stopping_rounds: 100
+  num_threads: 24

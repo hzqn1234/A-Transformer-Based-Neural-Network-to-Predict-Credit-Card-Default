@@ -1,0 +1,19 @@
+dataset: taiwan
+metric: auc
+preset: taiwan_lgbm
+model:
+  boosting: dart
+  max_depth: -1
+  min_data_in_leaf: 256
+  max_bin: 63
+  min_data_in_bin: 256
+  tree_learner: serial
+  boost_from_average: false
+  lambda_l1: 0.1
+  lambda_l2: 30.0
+training:
+  folds: 5
+  seed: 42
+  rounds: 1500
+  early_stopping_rounds: 100
+  num_threads: 24

@@ -1,0 +1,22 @@
+dataset: amex
+metric: amex
+preset: amex_transformer_no_fe
+model:
+  hidden_dim: 256
+  transformer_layers: 3
+  attention_heads: 16
+  feedforward_dim: 256
+  transformer_dropout: 0.05
+  feature_dropout: 0.01
+  output_dropout: 0.05
+  feature_hidden_layers: 3
+  positional_encoding: none
+training:
+  folds: 5
+  epochs: 12
+  batch_size: 256
+  learning_rate: 0.0000825
+  seed: 42
+  use_features: false
+  feature_complement: false
+  fixed_sequence_length: 13

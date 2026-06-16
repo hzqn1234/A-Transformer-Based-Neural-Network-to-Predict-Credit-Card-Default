@@ -1,0 +1,27 @@
+dataset: taiwan
+metric: auc
+preset: taiwan_transformer
+model:
+  hidden_dim: 32
+  transformer_layers: 2
+  attention_heads: 2
+  feedforward_dim: 4
+  transformer_dropout: 0.005
+  feature_dropout: 0.005
+  output_dropout: 0.025
+  feature_hidden_layers: 3
+  positional_encoding: none
+  use_padding_mask: false
+  gru_pooling: last_output
+training:
+  folds: 5
+  epochs: 12
+  batch_size: 512
+  learning_rate: 0.01
+  seed: 42
+  use_features: true
+  feature_complement: true
+  fixed_sequence_length: 13
+  reload_best_for_oof: true
+  optimizer_weight_decay: 0.00000001
+  clip_grad_norm: 0
